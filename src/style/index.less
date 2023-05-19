@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 420px;
+    height: 600px;
+    margin: 100px auto;
+    background-color: #b7d4ab;
+    border: 10px solid black;
+    border-radius: 20px;
+
+    .stage{
+        width: 363px;
+        height: 483px;
+        margin: 20px auto;
+        border: 2px solid black;
+        position: relative;
+
+        .snake>div{
+            width: 9px;
+            height: 9px;
+            background-color: black;
+            border: 1px solid #b7d4ab;
+            position: absolute;
+
+            &:first-child{
+                background-color: red;
+
+            }
+        }
+
+        .food{
+            
+            position: absolute;
+            display: flex;
+            width: 10px;
+            height: 10px;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            left: 50px;
+
+            &>div{
+                width: 4px;
+                height: 4px;
+                background-color: black;
+                transform: rotate(45deg);
+            }
+        }
+    }
+
+    .panel{
+        width: 360px;
+        height: 50px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span{
+            font-size: 18px;
+            margin-left: 10px;
+        }
+    }
+}

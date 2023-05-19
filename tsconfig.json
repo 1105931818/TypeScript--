@@ -1,0 +1,16 @@
+{
+  /* 编译器选项 */
+  "compilerOptions": {
+    "target": "es2015",                                  /* 为发出的 JavaScript 设置 JavaScript 语言版本并包含兼容的库声明。 */
+    "module": "es2015",                                /* 指定生成的模块代码。 */
+    "noEmitOnError": true,                            /* 当有错误时，不生成编译文件。Disable emitting files if any type checking errors are reported. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* 所有严格检查的总开关。Enable all strict type-checking options. */
+    "noImplicitAny": true,                               /* 不允许隐式的any类型。Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                            /* 严格的检查空值。When type checking, take into account 'null' and 'undefined'. */
+    "noImplicitThis": true,                              /* 不允许不明确类型的this。Enable error reporting when 'this' is given the type 'any'. */
+    "alwaysStrict": true,                                /* 语法严格模式。Ensure 'use strict' is always emitted. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
